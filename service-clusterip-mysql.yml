@@ -1,0 +1,17 @@
+# Service MySQL
+apiVersion: v1
+kind: Service
+metadata:
+  name: wp-mysql
+  namespace: wordpress
+  labels:
+    name: wordpress
+spec:
+  selector:
+    app: wordpress
+    tier: mysql
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306
+  type: ClusterIP
