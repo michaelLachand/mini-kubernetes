@@ -10,6 +10,8 @@ Déployez Wordpress à l’aide de manifests.
 
 * Créez un service de type nodeport pour exposer le frontend wordpress
 
-<img width="470" alt="image" src="https://github.com/user-attachments/assets/c8b158e5-72f6-4843-b663-ce9a0499036d">
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/21d2476d-029c-40e6-9aae-705bec9a84fc">
+
+
 
 
